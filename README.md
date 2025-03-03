@@ -5,7 +5,7 @@ superset of state and county mugshot data. These include sites like Mugshots.com
 Mugshots.zone, RecentlyBooked.com, FindMugshots.com, MugshotLook.com.
 
 # Collection
-I cloned a [script](https://github.com/agaricide/mugshots-client) that uses [puppeteer](https://github.com/puppeteer/puppeteer) to scrape [Mugshots.com](https://mugshots.com/). I altered the code using [Claude AI](https://claude.ai/) to collect
+I cloned this [script](https://github.com/agaricide/mugshots-client) that uses [puppeteer](https://github.com/puppeteer/puppeteer) to scrape [Mugshots.com](https://mugshots.com/). I altered the code using [Claude AI](https://claude.ai/) to collect
 chunks of 1,000 pictures that capture a random sample from the site. I stored these photos in a
 Google Cloud bucket mugshots-data.
 
